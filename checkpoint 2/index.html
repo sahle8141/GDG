@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        checkpoint 2
+       
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/2.jpg" type="image/jpeg">
+</head>
+<body style="background-color:rgba(41, 41, 41); ">
+    
+    <div id="header"><header><h1>Welcome to ancient history 101</h1></header></div>
+    <main>
+       <div class="header"><h2>lets briefly talk about three ancient civilizations</h2></div>
+   <div class="header"> <h4>
+            Ancient Egypt
+        </h4></div>
+        <br>
+        <img src="images/egypt.jpg" class="img" id="egypt">
+        <p>
+            Ancient Egypt was a powerful and enduring civilization centered along the fertile Nile River, which provided water,
+            food, and transportation. The Egyptians built monumental structures such as the Great Pyramids of Giza and the
+            Sphinx,
+            which remain architectural marvels. They developed a complex writing system called hieroglyphics, used for religious
+            texts, official decrees, and historical records. The civilization was ruled by pharaohs, considered divine
+            representatives of the gods, and their leadership ensured the construction of temples and tombs to honor their
+            legacy.
+            Egyptian religion was polytheistic, with gods such as Ra (the sun god), Anubis (protector of the dead), and Osiris
+            (god
+            of the afterlife). Their belief in the afterlife led to the practice of mummification to preserve bodies for
+            eternity.
+            Advances in mathematics and medicine were notable, as they used geometry for building projects and had knowledge of
+            surgery and herbal remedies. The economy was based on agriculture, with the Nile’s annual flooding enriching the
+            soil
+            for crops like wheat and barley. Egyptian art, with its distinct style and symbolism, decorated tombs and temples,
+            portraying gods, pharaohs, and everyday life. The civilization lasted for thousands of years until it was conquered
+            by
+            Alexander the Great in 332 BCE, but its cultural and architectural contributions have endured through history.
+        
+        </p>
+        
+        
+        <br>
+      <div id="right"> <div class="header" > <h4>
+            Mesopotamia
+        </h4></div>
+        
+        <br>
+        <img src="images/mesopotamia.jpg" class="img" id="mesopotamia">
+        <p >
+            Mesopotamia, known as the "Cradle of Civilization," was located between the Tigris and Euphrates rivers in modern-day
+            Iraq. The fertile land allowed for agricultural development, supporting the growth of the world’s first cities, such as
+            Ur, Uruk, and Babylon. The Sumerians, one of the earliest Mesopotamian cultures, invented cuneiform writing, which is
+            considered the earliest form of written language. Mesopotamians are also credited with creating the wheel, which
+            revolutionized transportation and trade. The civilization was organized into city-states, each with its own ruler and
+            patron deity, such as Inanna, the goddess of love and war. The Babylonians, under King Hammurabi, created the Code of
+            Hammurabi, one of the earliest sets of laws, emphasizing justice with the principle of "an eye for an eye." Religion
+            played a central role, with ziggurats (temple towers) built to honor gods. Mesopotamians made advancements in
+            mathematics and astronomy, developing a base-60 number system, which is why we measure time in 60 seconds and 60
+            minutes. Their knowledge of irrigation helped control flooding and ensure stable crop production. The civilization
+            declined after invasions by the Assyrians and Persians, but its contributions to writing, law, and science influenced
+            future cultures.
+        </p>
+        </div>
+        <br>
+       
+        <div class="header" ><h4>
+            Ancient China
+        </h4></div>
+        <br>
+        <img src="images/china.jpg" class="img" id="china">
+
+        <p>
+        Ancient China, with its roots along the Yellow (Huang He) and Yangtze Rivers, was one of the longest-lasting
+        civilizations. The Xia, Shang, and Zhou dynasties established the foundation for Chinese culture, politics, and
+        technology. The Shang dynasty was notable for its use of oracle bones for divination and its bronze craftsmanship. The
+        Zhou dynasty introduced the concept of the "Mandate of Heaven," which justified the ruler's authority as divine but
+        revocable if they failed to govern justly. Ancient China made significant technological advancements, including the
+        invention of paper, gunpowder, and the compass, which would later shape global history. Confucianism and Taoism emerged
+        during this period, shaping Chinese society with values such as filial piety, harmony, and respect for elders. The Great
+        Wall of China began as a series of fortifications to protect against northern invaders. Agriculture thrived with
+        innovations such as iron plows and irrigation systems, supporting a growing population. Chinese art, including porcelain
+        and silk weaving, became highly valued and exported through the Silk Road. The civilization's influence continued
+        through later dynasties, and its philosophies and inventions remain integral to global culture and science.
+        
+        
+        </p>
+        <div id="quiz"><h3>Quiz Time!</h3></div>
+        <ol>
+            <li>
+        <p>The ancient civilization that had a religion where the followers belived in a god called Anubis which was belived to be the protector of death is <span id="egyptans">__________</span> <button onclick="ans1()" style="font-size:10px; background-color:gold; border-radius:10px;">Reviel
+            Answer</button></p>
+       
+        
+        
+        <script>
+            function ans1() {
+
+                document.getElementById("egyptans").innerHTML = "Ancient Egypt";
+            }
+        </script>
+        </li>
+        <li>
+        <p>Which ancient civilization is known as the "cradle of Civilization? <span id="mesopotamiaans">__________</span> <button onclick="ans2()" style="font-size:10px; background-color:gold; border-radius:10px;">Reviel
+            Answer</button></p>
+        
+        
+        <script>
+            function ans2() {
+
+                document.getElementById("mesopotamiaans").innerHTML = "Ancient Mesopotamia";
+            }
+        </script>
+        </li>
+        <li>
+        <p>Which ancient civilization was responsible for the creation of Confucianism and Taoism? <span id="chinaans">__________</span> <button onclick="ans3()" style="font-size:10px; background-color:gold; border-radius:10px;">Reviel
+            Answer</button> </p>
+        
+        
+        <script>
+            function ans3() {
+
+                document.getElementById("chinaans").innerHTML = "Ancient China";
+            }
+        </script>
+        </li>
+        </ol>
+       
+        <br>
+        
+        <form method="POST">
+        
+            <table id="table">
+                <tr>
+                    <th colspan="2" style="text-align:center;">Sign-up for more</th>
+                </tr>
+                <tr>
+                    <td><label>first name</label></td>
+                    <td><input id="box" type="text" name="fname" placeholder="John" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label>last name</label></td>
+                    <td><input id="box" type="text" name="lname" placeholder="Doe" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label>gender</label></td>
+                    <td><input type="radio" name="GENDER">Male
+                        <input type="radio" name="GENDER">Female
+                    </td>
+                <tr>
+                    <td><label>E-mail</label></td>
+                    <td><input id="box" type="email" name="email" placeholder="johndoe@gamil.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input id="box" type="password" name="pw" placeholder="*********" minlength="8" required></td>
+                </tr>
+        
+                <tr>
+                    <td><input id="button" type="submit" value="sign up"></td>
+                    <td><input id="button" type="reset" value="clear"></td>
+                </tr>
+        
+            </table>
+    </form>
+    </main>
+    <footer style="background-color:gold;"><hr>
+    Author:sahle<br>
+&copy; copyright<br>
+<a mailto="sample@gmail.com"
+style="text-decoration:none;">Email</a></footer>
+</body>
+
+</html>

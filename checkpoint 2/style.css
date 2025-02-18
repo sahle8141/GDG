@@ -1,0 +1,51 @@
+
+@font-face{
+    src:url(fonts/Cinzel-VariableFont_wght.ttf);
+    font-family:cinzel;
+}
+@font-face {
+    src: url(fonts/FaunaOne-Regular.ttf);
+    font-family:fauna;
+}
+#header{
+    font-family:cinzel;
+    background-color:gold;
+    text-align:center;
+    margin: 0px;
+}
+body{color:white;
+font-family:fauna;}
+.header{
+    font-family:cinzel;
+}
+#right{
+    text-align:right;
+}
+.img{width:200px;
+border-style:solid;
+border-radius:50%;
+border-color:gold;
+box-shadow:-5px -5px 3px rgb(240, 227, 156);
+margin: 50px;}
+#egypt{float:right;
+margin:10px;}
+#mesopotamia {
+    float: left;
+    margin: 10px;
+}
+#china {
+    float: right;
+    margin: 10px;
+}
+#quiz{
+    background-color:gold;
+    text-align:center;
+    margin:50px;
+    font-size:35px;
+    font-family:cinzel;
+
+}
+#table{
+    margin:auto;
+    
+}
