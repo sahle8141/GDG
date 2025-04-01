@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/logo2.png">
+    <title>End Malarea</title>
+   
+</head>
+
+<body>
+    <nav class="desktop">
+    
+        <div class="logo"><a href="#"><img src="/images/logo2-removebg-.png"></a></div>
+        <ul>
+            <li><a href="#section1">መግቢያ</a></li>
+            <li><a href="#section2">ምርታችን</a></li>
+            <li><a href="#section3">ስለ እኛ</a></li>
+            <li><a href="#section4">አግኙን</a></li>
+
+        </ul>
+        
+    </nav>
+    <nav class="sidebar">
+        <div class="top-items">
+        <div class="logo"><a href="#"><img src="/images/logo2-removebg-.png"></a></div>
+        <div class="opensidebar" onclick=showsidebar()><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
+        <div class="closesidebar" onclick=closesidebar()><i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+</div></div>
+        <ul>
+            <li><a href="#section1">መግቢያ</a></li>
+            <li><a href="#section2">ምርታችን</a></li>
+            <li><a href="#section3">ስለ እኛ</a></li>
+            <li><a href="#section4">አግኙን</a></li>
+    
+        </ul>
+        
+    </nav>
+    
+    <section id="section1">
+        <div id="hero-text">
+            <h1>የወባ ትንኞችን ስርጭት ለመግታት እና እራስዎን ከወባ ለመጠበቅ የእኛን <span id="green">አውቶማቲክ</span> የወባ ትንኝ መከላኬያ መርጫ
+                ይጠቀሙ<span id="button-media-container"><a><button id="info-button">ይበልጥ ለማወቅ</button></a></span>
+            </h1>
+
+        </div>
+    </section>
+    <section id="section2">
+
+        <div id="cart">
+            <h1>ምርታችንን ይዘዙ</h1>
+        </div>
+        <div id="instructions">
+            <div id="ad">
+                <div id="outer">
+                    <div id="inner1"></div>
+                    <div id="inner2"><img src="/basket.svg">
+                        <h3><b>Automate the spraying process</b></h3>
+                        <p>No need for manual labor and extra expenses</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="product-image">
+                <div id="OUTER">
+                    <div id="INNER1">
+                        <p><b>የአጠቃቀም መረጃ</b></p>
+                    </div>
+                    <div id="INNER2">
+                    </div>
+                </div>
+            </div>
+            <div id="steps">
+                <p><span id="green" style=font-family:sans-serif;>2</span> ለማብራት እና ለማጥፋት</p>
+                <p><span id="green" style=font-family:sans-serif;>1</span> የአሰራር ሁኔታ ለመከታተል</p>
+                <p><span id="green" style=font-family:sans-serif;>3</span> የማሳያውን ብርሀን ለመጨመር እና ለመቀነስ</p>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+
+        <div>
+            <div id="aboutus-text">
+                <p id="aboutus-header">ስለ እኛ</p>
+                <p id="aboutus-TEXT">የወባ ስርጭትን በራስ ሰር እና ቀልጣፋ በመታገል የወባ ስርጭትን ለመግታት የሚረዳ አውቶማቲክ የወባ ትንኝ መከላከያ ማሽን በማምረት
+                    እና በማከፋፈል ላይ ያተኮረ አዲስ አበባ ላይ የተመሰረተ
+                    ቡድን ነን።</p>
+                <button id="aboutus-button">አግኙን</button>
+            </div>
+            <div id="aboutus-img"><img src="/images/product.png" id="aboutus-IMG"></div>
+        </div>
+    </section>
+    <section id="section4">
+        <div id="cta">
+            <p id="cta-header">እራሰወን ከወባ ትንኝ ይከላከሉ</p>
+            <p id="cta-text">ዛሬውኑ አውቶማቲክ የወባ ትንኝ መከላኬያ መርጫወን ያግኙኙ!</p>
+            <button id="cta-button">ይዘዙ</button>
+        </div>
+        <div id="cta-TEXT">
+            <p>ምርታችንን ይዘዙ</p>
+        </div>
+        <form id="order-form">
+            <div id="first">
+                <p>የእቃው ምስል</p>
+                <img src="/images/Group 1000003405.png" id="product-image2">
+            </div>
+
+            <div>
+                <div class="couple "><label>የእቃው መለያመለያ</label>
+                    <input disabled="" value="#On12345" style="color:black;">
+                </div>
+                <div class="couple"><label>የትእዛዝ ብዛት</label>
+                    <input placeholder="200">
+                </div>
+            </div>
+            <div>
+                <div class="couple"><label class="required">መለኪያ </label>
+                    <input placeholder="ቁጥር" disabled="" value="ቁጥር" style="color:black;" required>
+                </div>
+                <div class="couple"><label>የእያንዳንዱ ዋጋ</label>
+                    <input disabled="" value="250" placeholder="250 ETB" style="color:black;">
+                </div>
+            </div>
+            <div>
+                <div class="couple"><label class="required">ክልል</label>
+                    <input placeholder="አፍርአፍር" required>
+                </div>
+                <div class="couple"><label class="required">ከተማ</label>
+                    <input placeholder="አሳያ" required>
+                </div>
+            </div>
+            <div>
+                <div class="couple"><label class="required">ወረዳ</label>
+                    <input placeholder="ዙሩ" required>
+                </div>
+                <div class="couple"><label class="required">ሰለክ ቁጥር</label>
+                    <input placeholder="09******45" required>
+                </div>
+            </div>
+            <div>
+                <div id="single"><label>ጠቅላላ ዋጋ</label>
+                    <input placeholder="0.00" id="fields" disabled="">
+                </div>
+            </div>
+            <div id="order-buttons"><button type="reset" id="reset-button">ይመለሱ</button>
+                <button type="submit" id="submit-button">ይዘዙ</button>
+            </div>
+
+
+        </form>
+
+    </section>
+   <footer id="section5">
+    <div id="firsts">
+        <img src="/images/logo2-removebg-.png">
+        <p>ያለስጋት ይኑሩ!</p>
+        <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i>
+
+        <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-telegram fa-lg" style="color: #ffffff;"></i>
+
+    </div>
+    <div id="second">
+        
+           <p><a href="#section1" id="first-anchor">መግቢያ</a></p> 
+            <p><a href =#section2>ምርታችን</a></p>
+            <p><a href="#section3">ያግኙን</a></p>
+            <p><a href="#section4">ስለኛ</a></p>
+        
+    </div>
+    <div id="third">
+        <p id="first-aboutus">እኛን ለማግኝት</p>
+        <p>endmalariae@gmail.com</p>
+        <p>www.endmalaria.com</p>
+        <p>+251-9-56-98-21</p>
+    </div>
+   </footer>
+</body>
+<script>
+   
+        function showsidebar() {
+                const sidebar = document.querySelector('.sidebar ul');
+                const open = document.querySelector('.opensidebar');
+                const close = document.querySelector('.closesidebar');
+                sidebar.style.display = 'flex';
+                open.style.display = 'none';
+                close.style.display = 'block';
+               
+            }
+
+            function closesidebar() {
+                const sidebar = document.querySelector('.sidebar ul');
+                const open = document.querySelector('.opensidebar');
+                const close = document.querySelector('.closesidebar');
+                sidebar.style.display = 'none';
+                open.style.display = 'block';
+                close.style.display = 'none';
+
+            }
+</script>
+</html>

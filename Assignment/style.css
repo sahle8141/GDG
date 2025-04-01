@@ -1,0 +1,638 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ .desktop {
+ 
+    width: 100%;
+     background: rgba(0, 91, 73, 255);
+     overflow: hidden;
+     position: sticky;
+     top: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .desktop ul {
+ 
+    padding: 0;
+     margin: 0;
+     list-style: none;
+ }
+
+ .desktop li {
+     float: left;
+
+ }
+
+ .desktop li a {
+     padding: 17px;
+     width: 40px;
+
+     text-decoration: none;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+
+ #section1 {
+     height: 100vh;
+     background-image: url(/images/Hero-section-DhCpGOmH.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     display: inline-block;
+     width: 100%;
+ }
+
+ #section2 {
+     height: 800px;
+     background: white;
+     display: inline-block;
+     width: 100%;
+ }
+
+ #section3 {
+     height: 500px;
+     background: rgba(246, 248, 252, 255);
+     display: inline-block;
+     width: 100%;
+ }
+
+ #section4 {
+     height: 1450px;
+     background: white;
+     display: inline-block;
+     width: 100%;
+ }
+
+ #section5 {
+     height: 250px;
+     background: rgba(0, 91, 73, 255);
+     display: inline-block;
+     width: 100%;
+
+ }
+
+ .logo {
+     margin: 6px;
+     margin-left: 23px;
+ }
+
+ #hero-text {
+
+
+     color: white;
+     width: 480px;
+     font-size: 22px;
+     height: fit-content;
+     margin-left: 56%;
+     position: static;
+     margin-top: 20%;
+     margin-right: 5%;
+     text-align: right;
+
+
+ }
+
+ #green {
+     color: green;
+ }
+
+ #info-button {
+     width: 180px;
+     font-size: 20px;
+     color: white;
+     border-radius: 25px;
+     border: 0;
+     padding: 12px;
+     background: rgba(0, 91, 73, 255);
+
+
+ }
+
+ #cart {
+     font-size: 45px;
+     text-align: center;
+ }
+
+ #ad {
+     padding: 10px;
+     width: 40%;
+
+     float: left;
+
+ }
+
+ #product-image {
+     padding: 10px;
+     width: 30%;
+     float: left;
+     justify-content: center;
+
+ }
+
+ #steps {
+     padding: 10px;
+
+     width: 30%;
+     float: left;
+     font-size: 25px;
+     font-weight: bold;
+     padding-top: 9%;
+ }
+
+ #outer {
+
+     width: 70%;
+     height: 500px;
+     margin-left: 16%;
+
+ }
+
+ #inner1 {
+     border: 0;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     width: 100%;
+     height: 70%;
+     background-image: url(/images/product\ \(3\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+
+ #inner2 {
+     border: 0;
+     width: 100%;
+     height: 30%;
+     background: rgba(0, 91, 73, 255);
+     padding: 10px;
+     color: white;
+     text-align: center;
+     font-size: 16px;
+     font-family: sans-serif;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+
+
+ }
+
+ #OUTER {
+
+     width: 90%;
+     height: 500px;
+     margin-left: 4%;
+     border-radius: 10px;
+
+ }
+
+ #INNER1 {
+
+     width: 100%;
+     height: 25%;
+     font-size: 30px;
+     color: rgba(0, 91, 73, 255);
+     padding-top: 40px;
+
+ }
+
+ #INNER2 {
+     border: 0;
+     width: 100%;
+     height: 75%;
+     background-image: url(/images/end-malaria-manual.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 10px;
+
+
+ }
+
+ #aboutus-text {
+     float: left;
+     height: 100%;
+     width: 55%;
+
+     padding-top: 9%;
+     padding-left: 3%;
+ }
+
+ #aboutus-IMG {
+     width: 550px;
+
+ }
+
+ #aboutus-img {
+     float: left;
+     width: 45%;
+
+ }
+
+ #aboutus-header {
+     color: rgba(0, 91, 73, 255);
+     font-size: 35px;
+     font-weight: bold;
+
+ }
+
+ #aboutus-TEXT {
+     font-size: 20px;
+ }
+
+ #aboutus-button {
+     background: rgba(0, 91, 73, 255);
+     border-radius: 8px;
+     padding: 10px;
+     color: white;
+     border: 0;
+     font-size: 20px;
+     margin-top: 20px;
+ }
+
+ #cta {
+     border: 0;
+     width: 80%;
+     height: 400px;
+     margin-top: 40px;
+     background: rgba(0, 91, 73, 255);
+     margin-left: 10%;
+     border-radius: 20px;
+     padding-left: 27%;
+     padding-top: 4%;
+ }
+
+ #cta-header {
+     color: white;
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ #cta-text {
+     color: white;
+     font-size: 18px;
+ }
+
+ #cta-button {
+     background: white;
+     color: rgba(0, 91, 73, 255);
+     font-size: 20px;
+     border: 0;
+     border-radius: 10px;
+     padding: 13px;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-left: 20%;
+     margin-top: 8%;
+ }
+
+ #cta-TEXT {
+     font-size: 40px;
+     text-align: center;
+     color: rgba(0, 91, 73, 255);
+     font-weight: bolder;
+ }
+
+ #order-form {
+
+     width: 70%;
+     margin-left: 15%;
+     padding: 10px;
+ }
+
+ .couple {
+     float: left;
+     width: 50%;
+     padding: 15px;
+ }
+
+ .couple input {
+     width: 100%;
+     height: 50px;
+     padding: 10px;
+     border: 3px solid rgb(216, 210, 210);
+     border-radius: 5px;
+     font-size: 18px;
+ }
+
+ label {
+     font-size: 20px;
+
+ }
+
+ #fields {
+     width: 100%;
+     height: 50px;
+     padding: 10px;
+     border: 3px solid rgb(216, 210, 210);
+     border-radius: 5px;
+     font-size: 18px;
+ }
+
+ #single {
+     padding: 15px;
+ }
+
+ .required::after {
+     content: " *";
+     color: red;
+ }
+
+ #first {
+     font-size: 20px;
+     padding: 15px;
+
+ }
+
+ #product-image2 {
+     width: 895px;
+ }
+
+ #order-buttons {
+
+    margin: auto;
+    width: 50%;
+padding-left:120px;
+    
+ }
+
+ #submit-button {
+     font-size: 15px;
+     background: rgba(0, 91, 73, 255);
+     border-radius: 15px;
+     border: 3px solid rgba(0, 91, 73, 255);
+     margin: 10px;
+     color: white;
+     padding: 15px;
+     font-weight: bold;
+ }
+
+ #reset-button {
+     font-size: 15px;
+     border: 3px solid rgba(0, 91, 73, 255);
+     border-radius: 15px;
+     margin: 10px;
+     padding: 15px;
+     color: rgba(0, 91, 73, 255);
+     font-weight: bold;
+
+ }
+
+ #firsts {
+
+     width: 35%;
+     float: left;
+     height: 100%;
+     padding-left: 100px;
+     padding-top: 50px;
+ }
+
+ #firsts p {
+     font-size: 18px;
+     color: white;
+
+
+ }
+
+ #firsts i {
+     margin-right: 20px;
+     margin-top: 20px;
+ }
+
+ #second {
+
+     width: 30%;
+     float: left;
+     height: 100%;
+     padding-left: 130px;
+     padding-top: 40px;
+
+ }
+
+ #second p a {
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+ }
+
+ #first-anchor {
+     font-weight: bold;
+ }
+
+ #third {
+
+     width: 35%;
+     float: left;
+     height: 100%;
+     padding-left: 200px;
+     padding-top: 40px;
+ }
+
+ #third p {
+     font-size: 18px;
+     color: white;
+ }
+
+ #first-aboutus {
+     font-weight: bold;
+ }
+ .sidebar{
+   
+    
+            background: rgba(0, 91, 73, 255);
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+          
+            align-items: center;
+            justify-content: space-between; 
+width:100%;
+
+flex-direction: column;}
+.sidebar ul{display: none;
+    flex-direction: column;
+width:90%;
+margin-left:5%;
+background-color:rgb(53, 49, 49);
+align-items:center;
+list-style:none;
+
+}
+.sidebar a{text-decoration:none;
+color:white}
+.sidebar ul li{
+    margin:20px;
+}
+.sidebar div{
+    margin-right:auto;
+    display: flex;
+    
+}
+.top-items {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    
+}
+.opensidebar{
+    display:flex;
+margin-left:auto;
+scale:1.5}
+.closesidebar {
+    display:none !important;
+    margin-left: auto;
+    scale: 1.9
+}
+
+@media(min-width:768px){
+    .sidebar{display:none;}
+}
+@media(max-width: 768px){
+    .desktop{display:none;}
+    #section1{
+        background-size: 100%;
+        padding:5%;
+    }
+        #hero-text {
+            text-align:left;
+            width:100%;
+            
+            margin-left:0;
+            font-size: 15px;
+            font-weight:bold;
+            margin-top:30%;
+            
+        }
+        #button-media-container{
+                    margin-left:210px;
+                    
+        }
+                #ad {
+                    
+                    width:80%;
+                    
+        
+                }
+        
+                #product-image {
+                    width: 60%;
+                    
+                
+                }
+        
+                #steps {
+                    
+                    width: 60%;
+                
+                }
+        #section2 {
+            height: 1500px;
+            padding-left:20%;
+            
+        }
+                #cart {
+                    font-size: 45px;
+                    text-align: left;
+                    
+                    margin-left:40px;
+                   
+                }
+#aboutus-text {
+    float: none;
+    height: 100%;
+    width: 100%;;
+    text-align:center;
+    padding-top: 9%;
+    padding-left: 3%;
+}
+#section3{
+    height:750px;
+}
+#aboutus-img {
+    float:none;
+    width: 45%;
+    margin-left:9%;
+}
+#cta {
+   padding-left:0px;
+   text-align:center;
+   border:1px solid red;
+}
+ #cta-button {
+    
+ 
+     margin-left: 0%;
+     
+ }
+ #product-image2 {
+     width: 100%;
+ }
+ .couple {
+     float: none;
+     width: 100%;
+     padding: 15px;
+ }
+ #section4 {
+     height: 1900px;
+    
+ }
+ #order-buttons {
+    margin:auto;
+     width: 50%;
+     
+    padding-left:20px;
+ }
+  #firsts {
+    
+    width: 100%;
+      
+      height: 30%;
+    padding-left: 10%;
+      
+    float: none;
+  }
+ 
+  #second {
+
+   
+    width: 100%;
+      
+      height: 35%;
+      padding-left: 10%;
+     
+    float: none;
+
+  }
+  #third {
+
+    width: 100%;
+      
+      height: 35%;
+    padding-left: 10%;
+      
+    float: none;
+    
+  }
+  #section5 {
+      height: 650px;
+      background: rgba(0, 91, 73, 255);
+      display: inline-block;
+      width: 100%;
+
+  }
+  ul{
+    display:none;
+  }
+  
+}
+ 
